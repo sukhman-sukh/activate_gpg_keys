@@ -3,7 +3,7 @@
 #sudo apt update
 #sudo apt-get install gnupg
 entry=50
-removeInput=0
+removeInput=00
 keyInput=0
 uid=""
 
