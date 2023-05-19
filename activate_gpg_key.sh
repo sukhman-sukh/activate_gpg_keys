@@ -17,14 +17,14 @@ echo "Enter 3 to Select GPG Key And Make It Signing key "
 
 echo "========================================="
 echo "Currently you have these keys"
-#gpg --list-secret-keys
-gpg --list-keys
+gpg --list-secret-keys
+#gpg --list-keys
 echo "========================================="
 
 read entry
 if [ $entry == 1 ]
 then
-	gpg --gen-key
+	gpg --full-generate-key
 	
 elif [ $entry == 2 ]
 then
