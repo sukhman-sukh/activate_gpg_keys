@@ -3,3 +3,4 @@ It is a bash script to activate gpg keys on linux terminal
 
 
 sdaj
+dsmnsd
